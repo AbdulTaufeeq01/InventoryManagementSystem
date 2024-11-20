@@ -1,5 +1,6 @@
+// backend/routes/productRoutes.js
 const express = require("express");
-const router = express.Router(); // Ensure parentheses are present here
+const router = express.Router();
 const Product = require("../models/Product");
 
 // Get all products
